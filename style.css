@@ -30,6 +30,10 @@ body {
 .main-section {
     width: 60vw;
     height: 100vh;
+    
+    /* padding-bottom: 10vh; */
+    padding-left: 3vw;
+    /* padding-right: 8vw; */
 }
 .logo-container {
     position: absolute;
@@ -58,9 +62,6 @@ body {
     justify-content: center;
     background-color: rgb(250, 250, 250);
     padding-top: 10vh;
-    padding-bottom: 8vh;
-    padding-left: 3vw;
-    padding-right: 8vw;
 }
 .main-top {
     /* width: 80%; */
