@@ -53,3 +53,22 @@ body {
     display: flex;
     align-items: center;
 }
+.main-top-container {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(250, 250, 250);
+    padding-top: 10vh;
+    padding-bottom: 8vh;
+    padding-left: 3vw;
+    padding-right: 8vw;
+}
+.main-top {
+    /* width: 80%; */
+    line-height: 0.8;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+.main-mid-container {
+    display: flex;
+    flex-direction: column;
+}
