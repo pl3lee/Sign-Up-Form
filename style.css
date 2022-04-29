@@ -1,5 +1,6 @@
 * {
     /* border: solid red; */
+    /* box-sizing: border-box; */
 }
 
 @font-face {
@@ -20,9 +21,11 @@ body {
     width: 40vw;
     height: 100vh;
     display: flex;
+    justify-content: center;
 }
 .background {
     object-fit: cover;
+    width: 100%;
 }
 .main-section {
     width: 60vw;
@@ -33,19 +36,18 @@ body {
     top: 15vh;
     background: black;
     opacity: 0.6;
-    /* flex-shrink: 0; */
     display: flex;
-    width: 40vw;
     justify-content: center;
     height: 20vh;
+    width: 40vw;
 }
 .logo {
     height: auto;
-    width: 13vw;
+    width: 12vw;
     object-fit: cover;
 }
 .header {
-    font-size: 3em;
+    font-size: 4vw;
     color: white;
     font-family: Norse-Bold;
     display: flex;
