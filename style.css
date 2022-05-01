@@ -52,6 +52,14 @@ body {
     align-items: center;
 }
 
+.image-credit {
+    position: absolute;
+    bottom: 1vh;
+    color:grey;
+}
+a {
+    color: grey;
+}
 .main-section-container {
     width: 60vw;
     height: 100vh;
