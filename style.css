@@ -1,5 +1,4 @@
 * {
-    /* border: solid red; */
     box-sizing: border-box; 
     /* makes it so that adding padding does not affect width*/
 }
@@ -89,22 +88,24 @@ a {
 .main-mid-container {
     display: flex;
     flex-direction: column;
+    padding-bottom: 5vh;
 }
 
 .form-container {
     display: flex;
     flex-direction: column;
-    gap: 2vh;
 }
 .form-row {
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
+    gap: 5vw;
 }
 
 form {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    gap: 100px;
+    gap: 3vh;
 }
 
 .form-element-container {
@@ -146,11 +147,13 @@ label {
     align-items: center;
     justify-content: center;
     border-radius: 5px;
-}
-.create-account-text {
     font-size: larger;
     font-family: 'Radio Canada', sans-serif;
     font-weight: bold;
     text-align: center;
     color: white;
+}
+
+#passwordsDontMatch {
+    color: red;
 }
