@@ -1,6 +1,7 @@
 * {
     /* border: solid red; */
-    /* box-sizing: border-box; */
+    box-sizing: border-box; 
+    /* makes it so that adding padding does not affect width*/
 }
 
 @font-face {
@@ -27,14 +28,7 @@ body {
     object-fit: cover;
     width: 100%;
 }
-.main-section {
-    width: 60vw;
-    height: 100vh;
-    
-    /* padding-bottom: 10vh; */
-    padding-left: 3vw;
-    /* padding-right: 8vw; */
-}
+
 .logo-container {
     position: absolute;
     top: 15vh;
@@ -43,7 +37,7 @@ body {
     display: flex;
     justify-content: center;
     height: 20vh;
-    width: 40vw;
+    width: inherit;
 }
 .logo {
     height: auto;
@@ -57,15 +51,34 @@ body {
     display: flex;
     align-items: center;
 }
+
+.main-section-container {
+    width: 60vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-section {
+    width: 100%;
+    height: 100%;
+    
+    /* padding-bottom: 10vh; */
+    /* padding-left: 3vw; */
+    /* padding-right: 8vw; */
+}
+.lrpadding {
+    padding-left: 3vw;
+    padding-right: 10vw;
+}
 .main-top-container {
     display: flex;
     justify-content: center;
     background-color: rgb(250, 250, 250);
-    padding-top: 10vh;
+    padding-top: 15vh;
 }
 .main-top {
-    /* width: 80%; */
-    line-height: 0.8;
+    line-height: 1;
     font-family: 'Times New Roman', Times, serif;
     font-size: medium;
 }
